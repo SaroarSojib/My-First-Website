@@ -7,9 +7,7 @@
     <title>This is my first webside</title>
     <style>
         /*This is p tags style*/
-        p{
-            background-color: bisque;
-        }
+      
         button{
             background-color: black;
             color: chocolate;
@@ -17,14 +15,95 @@
             padding: 7px;
             border-radius: 4px;
         }
+
+        body{
+            background-color: white;
+            background-image: url(/img/pexels-bade-saba-13945391.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+           margin: auto;
+           text-align: justify;
+           font-family: Arial, Helvetica, sans-serif;
+           font-size: 21px;
+        } 
+
+        .bg-design{
+           background-color: azure;
+           background-image: url(/img/pexels-sunsetoned-10027268.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           background-position: right;
+           margin-left: 300px;
+        }
+
+        .inside{
+            margin: 0px 0px 10px 90px;
+            padding: 30px 10px;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: #cf0b0b;
+            min-width: 160px;
+            box-shadow: 0px 5px 10px 4px rgba(234, 230, 230, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+            font-style: italic;
+        }
+
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+
+
     </style>
 </head>
 <body>
-    <p>I love to code. Coding is very good game to me.</p>
-    <H2>Today I am learning about Gihub</H2>
-    <p>Lorem ipsum dolor sit amet,<span>Hay bro, What's up</span> consectetur adipisicing elit. Iste a soluta doloremque harum accusamus vitae repudiandae optio pariatur ea illo, corporis amet hic, quo ex? Tempore reprehenderit ut quo maxime?</p>
-    <button>First Button</button>
+    <section class="bg-design">
+        <div class="inside">
+            <p>I love to code. Coding is very good game to me.</p>
+            <H2>Today I am learning about Gihub</H2>
+            <p>Lorem ipsum dolor sit amet,<span>Hay bro, What's up</span> consectetur adipisicing elit. Iste a soluta doloremque harum accusamus vitae repudiandae optio pariatur ea illo, corporis amet hic, quo ex? Tempore reprehenderit ut quo maxime?</p>
+            <button>First Button</button>
+            <p>I love to code. Coding is very good game to me.</p>
+            <H2>Today I am learning about Gihub</H2>
+            <p>Lorem ipsum dolor sit amet,<span>Hay bro, What's up</span> consectetur adipisicing elit. Iste a soluta doloremque harum accusamus vitae repudiandae optio pariatur ea illo, corporis amet hic, quo ex? Tempore reprehenderit ut quo maxime?</p>
+            <button>First Button</button>
+            <p>I love to code. Coding is very good game to me.</p>
+            <H2>Today I am learning about Gihub</H2>
+            <p>Lorem ipsum dolor sit amet,<span>Hay bro, What's up</span> consectetur adipisicing elit. Iste a soluta doloremque harum accusamus vitae repudiandae optio pariatur ea illo, corporis amet hic, quo ex? Tempore reprehenderit ut quo maxime?</p>
+            <button>First Button</button>
+        </div>
+    </section>
     
+    <!-- Background Image add  -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit nam repellendus delectus similique exercitationem, necessitatibus labore eveniet est architecto! Similique dolore doloribus impedit, distinctio totam accusantium deserunt voluptas fugit.</p>
+
+    <section>
+        <div>
+            <h2>Hoverable Dropdown Menu</h2>
+            <div class="dropdown">
+                <span>Mouse Hover Me</span>
+                <div class="dropdown-content">
+                    <p>Hello Programmers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
 
 </body>
 </html>
